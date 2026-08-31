@@ -1,0 +1,17 @@
+# Private-life knowledge on a personally-owned account. Everything is committed locally
+# and pushed only to the personal remote.
+
+# Local scratch / OS noise
+*.tmp
+*.bak
+Thumbs.db
+desktop.ini
+
+# Credentials must never be written here in any form - belt and braces
+*.key
+*.pem
+.env
+.env.*
+
+# Air-lock scratch - regenerated on demand, never history
+.tmp/

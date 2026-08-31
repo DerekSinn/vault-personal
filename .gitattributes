@@ -1,0 +1,7 @@
+# Scripts in agent-context-engine write every file here with LF. Pinning to LF stops
+# git's autocrlf from rewriting line endings on checkout, which would otherwise produce
+# a phantom diff on every scan or sync even when nothing changed.
+*.md                  text eol=lf
+*.json                text eol=lf
+.gitignore            text eol=lf
+.gitattributes        text eol=lf
