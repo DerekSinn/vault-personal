@@ -1,6 +1,13 @@
 # Private-life knowledge on a personally-owned account. Everything is committed locally
 # and pushed only to the personal remote.
 
+# Generated scan artifacts that change every run (the indexes themselves ARE tracked).
+# These are per-run caches, so tracking them would make every scan a diff and break the
+# byte-identical-on-no-change guarantee the registry is supposed to hold.
+registry/.parse-cache.json
+registry/last-scan.txt
+registry/ppi-last-refresh.txt
+
 # Local scratch / OS noise
 *.tmp
 *.bak
@@ -12,6 +19,12 @@ desktop.ini
 *.pem
 .env
 .env.*
+
+# Memory sync backups - local safety net, not history
+memory/.backups/
+
+# Enrichment staging - transient working files, regenerated on demand
+.enrichment/
 
 # Air-lock scratch - regenerated on demand, never history
 .tmp/

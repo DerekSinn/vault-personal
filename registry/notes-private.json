@@ -1,0 +1,152 @@
+{
+  "generated": "2026-09-04",
+  "generatedBy": "Update-VaultNotes.ps1",
+  "warning": "Restricted knowledge (sensitivity: private or secret). Tracked locally for history; blocked at push by .githooks\\pre-push. Recallable locally; never copy outside C:\\vault.",
+  "notes": [
+    {
+      "path": "people\\bryce-tafolla.md",
+      "tree": "people",
+      "kind": "person",
+      "title": "Bryce Tafolla",
+      "date": "",
+      "summary": "Contact card for Bryce Tafolla; contains brief personal notes (marital status, home purchase) as of April 2025. No professional context recorded.",
+      "tags": [
+        "contact",
+        "people",
+        "spx"
+      ],
+      "engagements": [],
+      "projects": [],
+      "people": [],
+      "attributes": {},
+      "source": "",
+      "sensitivity": "private",
+      "status": "active",
+      "private": true,
+      "secret": false,
+      "quality": [],
+      "modifiedUtc": "2026-09-04"
+    },
+    {
+      "path": "people\\nitin-rathod.md",
+      "tree": "people",
+      "kind": "person",
+      "title": "Nitin Rathod",
+      "date": "2026-09-04",
+      "summary": "Rapport overlay for nitin-rathod. Family details only; identity, role and routing live in the professional record under the same slug.",
+      "tags": [
+        "contact",
+        "people",
+        "overlay"
+      ],
+      "engagements": [],
+      "projects": [],
+      "people": [],
+      "attributes": {},
+      "source": "",
+      "sensitivity": "private",
+      "status": "active",
+      "private": true,
+      "secret": false,
+      "quality": [],
+      "modifiedUtc": "2026-09-04"
+    },
+    {
+      "path": "people\\rob-white.md",
+      "tree": "people",
+      "kind": "person",
+      "title": "Rob White",
+      "date": "",
+      "summary": "Stub contact card for Rob White; contains only children's names as of April 2025. No professional context recorded.",
+      "tags": [
+        "contact",
+        "people",
+        "spx"
+      ],
+      "engagements": [],
+      "projects": [],
+      "people": [],
+      "attributes": {},
+      "source": "",
+      "sensitivity": "private",
+      "status": "active",
+      "private": true,
+      "secret": false,
+      "quality": [],
+      "modifiedUtc": "2026-09-04"
+    },
+    {
+      "path": "people\\suzie-carol-sinn.md",
+      "tree": "people",
+      "kind": "person",
+      "title": "Suzie Carol Sinn",
+      "date": "",
+      "summary": "Contact card for Carol 'Suzie' Sinn; contains a brief personal note. Minimal content.",
+      "tags": [
+        "contact",
+        "people"
+      ],
+      "engagements": [],
+      "projects": [],
+      "people": [],
+      "attributes": {},
+      "source": "",
+      "sensitivity": "private",
+      "status": "active",
+      "private": true,
+      "secret": false,
+      "quality": [],
+      "modifiedUtc": "2026-09-04"
+    },
+    {
+      "path": "people\\vijay-thangamany.md",
+      "tree": "people",
+      "kind": "person",
+      "title": "Vijay Thangamany",
+      "date": "2026-08-14",
+      "summary": "Rapport overlay for vijay-thangamany. Personal contact details he shared unprompted on his last day at SPX. Role, routing and handover context live in the professional record under the same slug.",
+      "tags": [
+        "people",
+        "overlay",
+        "alumni"
+      ],
+      "engagements": [],
+      "projects": [],
+      "people": [],
+      "attributes": {},
+      "source": "",
+      "sensitivity": "private",
+      "status": "departed",
+      "private": true,
+      "secret": false,
+      "quality": [],
+      "modifiedUtc": "2026-09-04"
+    },
+    {
+      "path": "personal\\profile.md",
+      "tree": "personal",
+      "kind": "reference",
+      "title": "Profile — Derek Sinn",
+      "date": "2026-08-14",
+      "summary": "Who Derek is, how he thinks, and what he is working toward — the context an agent needs to be a colleague rather than a stranger with filesystem access. Distinct from memory\\\\user.md, which holds discrete preferences; this holds the standing picture.",
+      "tags": [
+        "profile",
+        "personal",
+        "identity",
+        "working-style"
+      ],
+      "engagements": [],
+      "projects": [],
+      "people": [],
+      "attributes": {},
+      "source": "",
+      "sensitivity": "private",
+      "status": "draft",
+      "private": true,
+      "secret": false,
+      "quality": [],
+      "modifiedUtc": "2026-09-04"
+    }
+  ],
+  "defects": []
+}

@@ -1,0 +1,6 @@
+#!/bin/sh
+# Vault pre-push guard. Logic lives in the engine repo (the vault holds no code);
+# this shim only wires it to git. See:
+#   C:\Projects\agent-context-engine\scripts\Test-VaultPushSafety.ps1
+pwsh -NoProfile -File "C:/Projects/agent-context-engine/scripts/Test-VaultPushSafety.ps1" -Path "C:/vault"
+exit $?

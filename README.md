@@ -1,3 +1,11 @@
+---
+type: reference
+title: vault-personal
+class: private-life
+sensitivity: private
+status: active
+summary: "What this vault is, what it accepts, and how it relates to the other vaults on the machine. Classified so the push gate can see it: the gate scans every tracked file, and a README with no tier is a routing failure, not a default."
+---
 # vault-personal
 
 Private-life knowledge for the Agent Context Engine, on a **personally-owned** GitHub

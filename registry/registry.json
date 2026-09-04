@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "roots": {
+    "portable": [
+      "C:\\Projects"
+    ],
+    "anchored": [
+      "C:\\bmapps"
+    ],
+    "archive": "C:\\Projects\\_archive",
+    "vault": "C:\\vault-personal"
+  },
+  "counts": {
+    "projects": 0,
+    "byTier": {
+      "Anchored": 0,
+      "Portable": 0,
+      "Archived": 0
+    },
+    "vendoredProjects": 0,
+    "withoutGit": 0,
+    "skillInstances": 0,
+    "canonicalSkills": 0,
+    "thirdPartySkills": 0,
+    "deployedArtifacts": 10,
+    "agents": 0
+  },
+  "managedCatalog": [
+    {
+      "name": "excel-solution-architect",
+      "description": "Build / modify / analyze / audit Excel workbooks on Windows — formulas, charts, PivotTables, Power Query, dashboards, and (when needed) VBA + custom Ribbon. Say \"excel\", \"spreadsheet\", \"workbook\", \"xlsx/xlsm\", or \"vba\" to mean this one.",
+      "version": "0.5.0",
+      "updated": "2026-08-23"
+    }
+  ],
+  "managedCatalogSource": "C:\\Users\\dsinn\\.copilot\\skills\\spx-custom-skill-installer\\SKILL.md",
+  "canonicalSkills": [],
+  "thirdPartySkills": [],
+  "agents": [],
+  "deployedArtifacts": [
+    {
+      "name": "dotnet-nlog-appsettings",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\dotnet-nlog-appsettings",
+      "version": "0.1.0",
+      "publishUrl": "",
+      "isJunction": true
+    },
+    {
+      "name": "m365-search",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\m365-search",
+      "version": "0.1.0",
+      "publishUrl": "",
+      "isJunction": true
+    },
+    {
+      "name": "spx-custom-skill-installer",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\spx-custom-skill-installer",
+      "version": "0.5.3",
+      "publishUrl": "https://spx.sharepoint.com/sites/SPXGlobalCoolingEngineering-AutomationTeam/Shared%20Documents/Systems%20and%20Tools/Github%20Copilot/spx-custom-skills/spx-custom-skill-installer",
+      "isJunction": false
+    },
+    {
+      "name": "timekeeper",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\timekeeper",
+      "version": "0.2.0",
+      "publishUrl": "",
+      "isJunction": true
+    },
+    {
+      "name": "vault-capture",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\vault-capture",
+      "version": "0.1.0",
+      "publishUrl": "",
+      "isJunction": true
+    },
+    {
+      "name": "vault-inbox",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\vault-inbox",
+      "version": "0.1.0",
+      "publishUrl": "",
+      "isJunction": true
+    },
+    {
+      "name": "vault-memory",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\vault-memory",
+      "version": "0.1.0",
+      "publishUrl": "",
+      "isJunction": true
+    },
+    {
+      "name": "vault-onboard",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\vault-onboard",
+      "version": "0.1.0",
+      "publishUrl": "",
+      "isJunction": true
+    },
+    {
+      "name": "vault-recall",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\vault-recall",
+      "version": "0.1.0",
+      "publishUrl": "",
+      "isJunction": true
+    },
+    {
+      "name": "windows-remote-ops",
+      "vendor": "copilot",
+      "path": "C:\\Users\\dsinn\\.copilot\\skills\\windows-remote-ops",
+      "version": "1.0.0",
+      "publishUrl": "",
+      "isJunction": true
+    }
+  ],
+  "duplicates": [],
+  "driftFindings": [],
+  "nameCollisions": [],
+  "vendorLockedSkillPaths": [],
+  "systems": [],
+  "projects": []
+}
