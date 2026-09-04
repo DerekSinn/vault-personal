@@ -1,0 +1,40 @@
+{
+  "$schemaComment": [
+    "This vault's own policy. It travels with the repo on purpose: a vault cloned onto",
+    "another machine must still know what it will and will not accept, without depending",
+    "on anything machine-local.",
+    "",
+    "Which vaults exist on a machine is a SEPARATE question, answered by the roster at",
+    "%LOCALAPPDATA%\\agent-context-engine\\vaults.json. A vault cannot enumerate vaults,",
+    "and cannot add itself. See agent-context-engine\\docs\\plan.md 3.0a."
+  ],
+
+  "name": "vault-personal",
+  "displayName": "Personal",
+
+  "$acceptsComment": [
+    "This vault is not a special kind of vault. It is an ordinary vault that happens to",
+    "accept private-life instead of professional - that is the whole difference.",
+    "",
+    "'protected' is NOT a value that may appear here in any vault - it is an engine constant",
+    "so the ban cannot be configured away by editing a file inside a vault. Holding a",
+    "colleague's protected-category data on a personally-owned account reduces one exposure;",
+    "it does not make holding it appropriate."
+  ],
+  "accepts": ["private-life"],
+
+  "$subjectsComment": [
+    "Used only to disambiguate when more than one rostered vault accepts the same class.",
+    "Nothing else here accepts private-life today, so this list is currently unused."
+  ],
+  "subjects": [
+    "household",
+    "family",
+    "health-admin",
+    "hobbies",
+    "personal-finance",
+    "personal-projects"
+  ],
+
+  "defaultSensitivity": "private"
+}
