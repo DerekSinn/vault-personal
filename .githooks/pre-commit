@@ -6,5 +6,10 @@
 # Refuses any commit that did not come through New-VaultCommit.ps1, because several
 # sessions share this working tree and its index. Bypass a deliberate hand commit with
 # `git commit --no-verify`.
-pwsh -NoProfile -File "C:/Projects/agent-context-engine/scripts/Test-VaultCommitSafety.ps1" -Path "C:/vault"
+#
+# The vault is resolved from git, never hardcoded: this file is copied into every vault
+# and travels through history rewrites, so a literal path here silently guards the wrong
+# repository.
+VAULT_ROOT=$(git rev-parse --show-toplevel)
+pwsh -NoProfile -File "C:/Projects/agent-context-engine/scripts/Test-VaultCommitSafety.ps1" -Path "$VAULT_ROOT"
 exit $?

@@ -2,5 +2,10 @@
 # Vault pre-push guard. Logic lives in the engine repo (the vault holds no code);
 # this shim only wires it to git. See:
 #   C:\Projects\agent-context-engine\scripts\Test-VaultPushSafety.ps1
-pwsh -NoProfile -File "C:/Projects/agent-context-engine/scripts/Test-VaultPushSafety.ps1" -Path "C:/vault"
+#
+# The vault is resolved from git, never hardcoded: this file is copied into every vault
+# and travels through history rewrites, so a literal path here silently guards the wrong
+# repository - which is exactly what happened to vault-spx after the N-vault carve.
+VAULT_ROOT=$(git rev-parse --show-toplevel)
+pwsh -NoProfile -File "C:/Projects/agent-context-engine/scripts/Test-VaultPushSafety.ps1" -Path "$VAULT_ROOT"
 exit $?
