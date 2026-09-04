@@ -36,5 +36,18 @@
     "personal-projects"
   ],
 
-  "defaultSensitivity": "private"
+  "defaultSensitivity": "private",
+
+  "$publishComment": [
+    "This vault pushes to a private repository on a personally-owned GitHub account, so it",
+    "may carry 'private' - the tier that means 'one specific person'. That is a higher",
+    "ceiling than vault-spx's and it is not a loosening: it is the whole reason the roots",
+    "are separate. Private life reaches personally-controlled storage and nothing else.",
+    "",
+    "'secret' still may not appear here. No remote receives that tier, on any account."
+  ],
+  "publish": {
+    "visibility": "private",
+    "maxSensitivity": "private"
+  }
 }
