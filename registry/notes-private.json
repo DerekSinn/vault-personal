@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04",
+  "generated": "2026-09-19",
   "generatedBy": "Update-VaultNotes.ps1",
   "warning": "Restricted knowledge (sensitivity: private or secret). Tracked locally for history; blocked at push by .githooks\\pre-push. Recallable locally; never copy outside C:\\vault.",
   "notes": [

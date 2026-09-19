@@ -6,7 +6,7 @@
 > themselves sensitive. Tracked locally for history, but blocked at push by
 > `.githooks\pre-push`. Never quote it into a project or copy it outside `C:\vault`.
 
-Generated 2026-09-04 · 6 note(s)
+Generated 2026-09-19 · 6 note(s)
 
 ## people (5)
 
