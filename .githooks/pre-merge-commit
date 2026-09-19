@@ -1,0 +1,14 @@
+#!/bin/sh
+# Vault guard for a merge git commits BY ITSELF. See:
+#   C:\Projects\agent-context-engine\scripts\Test-VaultCommitSafety.ps1
+#
+# Git does not run `pre-commit` for a conflict-free merge - it runs this hook instead, and
+# runs `pre-commit` only when you finish a conflicted merge by hand. Without this file the
+# clean-merge path scanned nothing and printed nothing, so the gap was silent. Verified by
+# experiment on git 2.55.0, not assumed from the documentation.
+#
+# -MergeCommit disarms the intent gates (git chose these files, no session did) while the
+# credential and policy scans still run.
+VAULT_ROOT=$(git rev-parse --show-toplevel)
+pwsh -NoProfile -File "C:/Projects/agent-context-engine/scripts/Test-VaultCommitSafety.ps1" -Path "$VAULT_ROOT" -MergeCommit
+exit $?
